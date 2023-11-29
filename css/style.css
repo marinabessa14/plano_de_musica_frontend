@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  
+  html {
+    background: rgb(243, 149, 149);
+  }
+  
+  body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eebdd4;
+    
+  }
+  
+  main {
+    background: #faa2d8;
+    max-width: 416px;
+    border-radius: 1rem;
+    box-shadow: 0px 40px 40px -20px rgba(255, 44, 227, 0.152);
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0.2rem;
+  }
+  
+  main h1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #850033
+  }
+  
+  main span {
+    text-align: center;
+    color: #92003d;
+  }
+  
+  main strong {
+    color: #850033;
+  }
+  
+  main img {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+  }
+  
+  main .informations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    background-color: #f1c8e7;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    border-radius: 0.8rem;
+  }
+  
+  main .informations .music-price {
+    display: flex;
+    align-items: center;
+  }
+  
+  main .informations .price {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  
+  main .informations a {
+    color: #dd2697;
+    font-weight: 600;
+    font-size: 90%;
+    transition: all 0.3s;
+  }
+  
+  main .informations a:hover {
+    color: #ff7cbd;
+    text-decoration: none;
+  }
+  
+  main .informations img {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  main button {
+    cursor: pointer;
+    padding: 1rem 0;
+    width: 100%;
+    background: #9b0048;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 0.8rem;
+    border: none;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 95%;
+    margin-bottom: 1.5rem;
+    transition: background 0.3s;
+  }
+  
+  main button:hover {
+    background: #ff7cbd;
+  }
+  
+    #cancel-assi {
+      cursor: pointer;
+      padding: 1rem 0;
+      width: 100%;
+      background: #944168;
+      box-shadow: 0px 20px 20px rgba(248, 44, 139, 0.19);
+      border-radius: 0.8rem;
+      border: none;
+      color: #FFF;
+      font-weight: 600;
+      font-size: 95%;
+      margin-bottom: 1.5rem;
+      transition: background 0.3s;
+      text-align: center;
+  }
+  
+  #cancel-assi:hover {
+    color: #551f34;
+  }
+  
+  @media screen and (max-width: 650px) {
+    body {
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    section {
+      padding: 0 3rem;
+    }
+  }
